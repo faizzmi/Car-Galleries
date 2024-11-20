@@ -1,0 +1,129 @@
+{
+    "cars": [
+        {
+            "brand": "Mercedes",
+            "car_name": "AMG GT",
+            "year": 2020,
+            "engine": {
+                "type": "V8",
+                "displacement": "4.0 litre",
+                "configuration": "twin-turbocharged"
+            },
+            "performance": {
+                "power": "720 bhp",
+                "acceleration": {
+                    "0-62_mph": "3.1 seconds"
+                },
+                "top_speed": {
+                    "mph": 202,
+                    "kmh": 325
+                }
+            },
+            "img": "pictures/amg-gt.png",
+            "country": {
+                "name": "Germany",
+                "flag": "pictures/country/germany.png"
+            }
+        },
+        {
+            "brand": "Aston Martin",
+            "car_name": "DBS Superleggera",
+            "year": 2020,
+            "engine": {
+                "type": "V12",
+                "displacement": "5.2 litre",
+                "configuration": "twin-turbocharged"
+            },
+            "performance": {
+                "power": "715 bhp",
+                "acceleration": {
+                    "0-62_mph": "3.4 seconds"
+                },
+                "top_speed": {
+                    "mph": 211,
+                    "kmh": 340
+                }
+            },
+            "img": "pictures/aston.png",
+            "country": {
+                "name": "United Kingdom",
+                "flag": "pictures/country/uk.png"
+            }
+        },
+        {
+            "brand": "Porsche",
+            "car_name": "Taycan Turbo S",
+            "year": 2020,
+            "engine": {
+                "type": "Electric",
+                "displacement": "N/A",
+                "configuration": "Dual-motor"
+            },
+            "performance": {
+                "power": "750 bhp",
+                "acceleration": {
+                    "0-62_mph": "2.8 seconds"
+                },
+                "top_speed": {
+                    "mph": 161,
+                    "kmh": 260
+                }
+            },
+            "img": "pictures/taycan-turbo-s.png",
+            "country": {
+                "name": "Germany",
+                "flag": "pictures/country/germany.png"
+            }
+        },
+        {
+            "brand": "Audi",
+            "car_name": "R8 V10 Performance",
+            "year": 2020,
+            "engine": {
+                "type": "V10",
+                "displacement": "5.2 litre",
+                "configuration": "Naturally aspirated"
+            },
+            "performance": {
+                "power": "620 bhp",
+                "acceleration": {
+                    "0-62_mph": "3.1 seconds"
+                },
+                "top_speed": {
+                    "mph": 205,
+                    "kmh": 330
+                }
+            },
+            "img": "pictures/r8.png",
+            "country": {
+                "name": "Germany",
+                "flag": "pictures/country/germany.png"
+            }
+        },
+        {
+            "brand": "Ferrari",
+            "car_name": "Roma",
+            "year": 2020,
+            "engine": {
+                "type": "V8",
+                "displacement": "3.9 litre",
+                "configuration": "twin-turbocharged"
+            },
+            "performance": {
+                "power": "612 bhp",
+                "acceleration": {
+                    "0-62_mph": "3.4 seconds"
+                },
+                "top_speed": {
+                    "mph": 199,
+                    "kmh": 320
+                }
+            },
+            "img": "pictures/roma.png",
+            "country": {
+                "name": "Italy",
+                "flag": "pictures/country/italy.png"
+            }
+        }
+    ]
+}

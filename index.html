@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Galleries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Car Hall of Fame</h1>
+        <p>My favourite car</p>
+    </header>
+    <main>
+        <template id="car-card-template">
+            <div class="car-cards">
+                <div class="image-section">
+                    <img src="" class="car-image" alt="Car Image">
+                </div>
+                <div class="information">
+                    <div class="left-section">
+                        <h2 class="car-name"></h2>
+                        <p class="engine">
+                            <span class="type"></span>,
+                            <span class="displacement"></span>,
+                            <span class="configuration"></span>
+                        </p>
+                        <p class="hp-power"><span class="power"></span> hp</p>
+                        <p class="acceleration">0-62mph: <span class="time"></span> seconds</p>
+                        <p class="top-speed">Top Speed: <span class="mph"></span> mph (<span class="kmh"></span> km/h)
+                        </p>
+                    </div>
+                    <div class="right-section">
+                        <h1 class="series"></h1>
+                        <h3 class="year"></h3>
+                        <img src="" alt="" class="country">
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <div id="car-gallery"></div>
+    </main>
+    <script src="cars-model.js"></script>
+</body>
+
+</html>
